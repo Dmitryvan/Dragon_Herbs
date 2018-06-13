@@ -15,8 +15,8 @@ public class MyAccountPage extends Base {
         driver.findElement(myAccountLocator).click();
     }
 
-    public void clickSignOut (){
-        driver.findElement(myAccountLocator).click();
-        driver.findElement(signOutLocator).click();
-    }
+//    public void clickSignOut (){
+//        driver.findElement(myAccountLocator).click();
+//        driver.findElement(signOutLocator).click();
+//    }
 }

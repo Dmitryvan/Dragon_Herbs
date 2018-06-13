@@ -25,8 +25,8 @@ public class Login extends Base {
         homepage.clickSignIn();
         LoginPage loginpage = new LoginPage(driver);
         loginpage.login(userEmail, userPassword);
-        MyAccountPage myaccountpage = new MyAccountPage(driver);
-        myaccountpage.clickSignOut();
+//        MyAccountPage myaccountpage = new MyAccountPage(driver);
+//        myaccountpage.clickSignOut();
         System.out.println("*LOGIN_OK*");
     }
 }
