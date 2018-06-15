@@ -1,6 +1,6 @@
-package Pages;
+package com.dragonHerbs.Pages;
 
-import Settings.Base;
+import com.dragonHerbs.Settings.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

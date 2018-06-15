@@ -1,9 +1,4 @@
-package Tests;
-
-import Pages.HomePage;
-import Pages.RegistrationPage;
-import Settings.Base;
-import org.junit.Test;
+package com.dragonHerbs.Tests;
 
 //public class Registration extends Base {
 //

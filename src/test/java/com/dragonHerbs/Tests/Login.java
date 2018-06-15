@@ -1,9 +1,8 @@
-package Tests;
+package com.dragonHerbs.Tests;
 
-import Pages.HomePage;
-import Pages.LoginPage;
-import Pages.MyAccountPage;
-import Settings.Base;
+import com.dragonHerbs.Pages.HomePage;
+import com.dragonHerbs.Pages.LoginPage;
+import com.dragonHerbs.Settings.Base;
 import org.junit.Test;
 
 public class Login extends Base {

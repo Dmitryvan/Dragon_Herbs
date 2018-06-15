@@ -1,4 +1,4 @@
-package Settings;
+package com.dragonHerbs.Settings;
 
 import org.junit.After;
 import org.junit.Before;
