@@ -31,10 +31,10 @@
                 <version>2.22.0</version>
                 <inherited>true</inherited>
                 <configuration>
-                    <!--<suiteXmlFiles>-->
-                       <!--<suiteXmlFile>testng.xml</suiteXmlFile>-->
-                    <!--</suiteXmlFiles>-->
-                    <forkMode>never</forkMode>
+                    <suiteXmlFiles>
+                       <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <forkCount>never</forkCount>
                 </configuration>
             </plugin>
         </plugins>
