@@ -18,9 +18,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
+                <version>3.6.2</version>
                 <configuration>
-                    <encoding>UTF-8</encoding>
+                    <!--<encoding>UTF-8</encoding>-->
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
@@ -28,15 +28,27 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
-                <inherited>true</inherited>
-                <configuration>
-                    <suiteXmlFiles>
-                       <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                    <forkMode>never</forkMode>
-                </configuration>
+                <version>2.4.3</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.surefire</groupId>
+                        <artifactId>surefire-junit</artifactId>
+                        <version>2.4.3</version>
+                    </dependency>
+                </dependencies>
             </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>2.22.0</version>-->
+                <!--<inherited>true</inherited>-->
+                <!--<configuration>-->
+                    <!--<suiteXmlFiles>-->
+                       <!--<suiteXmlFile>testng.xml</suiteXmlFile>-->
+                    <!--</suiteXmlFiles>-->
+                    <!--<forkMode>never</forkMode>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 
@@ -51,7 +63,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.10</version>
             <scope>test</scope>
         </dependency>
 
